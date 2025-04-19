@@ -1,0 +1,119 @@
+:root {
+    --primary-color: #ff6f61;
+    --secondary-color: #fff4f4;
+    --text-color: #333;
+    --heading-color: #222;
+    --accent-color: #ffb347;
+    --background-color: #ffffff;
+  }
+  
+  .homepage-container {
+    background-color: var(--background-color);
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--text-color);
+  }
+  
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: var(--secondary-color);
+    padding: 3rem 1rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+  }
+  
+  .hero-section p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
+  }
+  
+  .hero-buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .hero-buttons a {
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero-buttons a:hover {
+    background-color: var(--accent-color);
+  }
+  
+  .services-preview {
+    margin-top: 4rem;
+    text-align: center;
+  }
+  
+  .services-preview h2 {
+    font-size: 2.25rem;
+    margin-bottom: 1rem;
+    color: var(--heading-color);
+  }
+  
+  .services-preview p {
+    font-size: 1.1rem;
+    color: var(--text-color);
+    max-width: 700px;
+    margin: 0 auto 2rem auto;
+  }
+  
+  .card-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+    padding: 1rem 0;
+  }
+  
+  .card-item {
+    background-color: var(--secondary-color);
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease;
+  }
+  
+  .card-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .contact-banner {
+    margin-top: 5rem;
+    padding: 2rem;
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+  }
+  
+  .contact-banner h3 {
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-banner p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-banner a {
+    color: rgb(168, 14, 14);
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  

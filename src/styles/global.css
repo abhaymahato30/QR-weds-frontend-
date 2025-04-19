@@ -1,0 +1,25 @@
+:root {
+    --primary-color: #fff2ec; /* Dark Grey */
+    --secondary-color: #fff2ec; /* Orange */
+    --text-color:  #db2777; /* White */
+    --background-color: #f4f4f4; /* Light Grey */
+    --link-hover-color: #db2777; /* Lighter Orange */
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: var(--text-color);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: var(--link-hover-color);
+  }
+  
