@@ -2,7 +2,7 @@ import React from 'react';
 
 const ContactPage = () => {
   return (
-    <div>
+    <div className = "p-4 pt-18" >
       <h1>Contact Us</h1>
       <p>Feel free to reach out to us for any inquiries.</p>
     </div>
@@ -10,3 +10,4 @@ const ContactPage = () => {
 };
 
 export default ContactPage;
+    
